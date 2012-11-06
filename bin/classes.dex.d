@@ -2,6 +2,7 @@ C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothc
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChat$1.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChat$2.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChat$3.class \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChat$4.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChat.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChatService$AcceptThread.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChatService$ConnectedThread.class \

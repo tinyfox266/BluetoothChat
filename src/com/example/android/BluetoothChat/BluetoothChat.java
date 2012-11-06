@@ -68,6 +68,7 @@ public class BluetoothChat extends Activity {
     private ListView mConversationView;
     private EditText mOutEditText;
     private Button mSendButton;
+    private Button mCleanButton;
 
     // Name of the connected device
     private String mConnectedDeviceName = null;
@@ -147,6 +148,7 @@ public class BluetoothChat extends Activity {
 
         // Initialize the send button with a listener that for click events
         mSendButton = (Button) findViewById(R.id.button_send);
+
         mSendButton.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
                 // Send a message using content of the edit text widget
@@ -163,6 +165,14 @@ public class BluetoothChat extends Activity {
                         
                 }
                 
+            }
+        });
+        
+        mCleanButton = (Button) findViewById(R.id.button_clean);
+        
+        mCleanButton.setOnClickListener(new OnClickListener () {
+            public void onClick(View v) {
+                mConversationArrayAdapter.clear();
             }
         });
 

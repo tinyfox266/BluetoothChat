@@ -14,15 +14,16 @@ public final class R {
         public static final int app_icon=0x7f020000;
     }
     public static final class id {
+        public static final int button_clean=0x7f06000a;
         public static final int button_scan=0x7f060006;
         public static final int button_send=0x7f060009;
-        public static final int discoverable=0x7f06000c;
+        public static final int discoverable=0x7f06000d;
         public static final int edit_text_out=0x7f060008;
         public static final int in=0x7f060007;
-        public static final int insecure_connect_scan=0x7f06000b;
+        public static final int insecure_connect_scan=0x7f06000c;
         public static final int new_devices=0x7f060005;
         public static final int paired_devices=0x7f060003;
-        public static final int secure_connect_scan=0x7f06000a;
+        public static final int secure_connect_scan=0x7f06000b;
         public static final int title_left_text=0x7f060000;
         public static final int title_new_devices=0x7f060004;
         public static final int title_paired_devices=0x7f060002;
@@ -40,27 +41,28 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f040000;
-        public static final int bt_not_enabled_leaving=0x7f040003;
-        public static final int button_scan=0x7f04000d;
-        public static final int discoverable=0x7f040010;
-        public static final int insecure_connect=0x7f04000f;
-        public static final int none_found=0x7f04000a;
-        public static final int none_paired=0x7f040009;
-        public static final int not_connected=0x7f040002;
+        public static final int bt_not_enabled_leaving=0x7f040004;
+        public static final int button_scan=0x7f04000e;
+        public static final int clean=0x7f040002;
+        public static final int discoverable=0x7f040011;
+        public static final int insecure_connect=0x7f040010;
+        public static final int none_found=0x7f04000b;
+        public static final int none_paired=0x7f04000a;
+        public static final int not_connected=0x7f040003;
         /**   DeviceListActivity 
          */
-        public static final int scanning=0x7f040007;
+        public static final int scanning=0x7f040008;
         /**  Options Menu 
          */
-        public static final int secure_connect=0x7f04000e;
-        public static final int select_device=0x7f040008;
+        public static final int secure_connect=0x7f04000f;
+        public static final int select_device=0x7f040009;
         /**   BluetoothChat 
          */
         public static final int send=0x7f040001;
-        public static final int title_connected_to=0x7f040005;
-        public static final int title_connecting=0x7f040004;
-        public static final int title_not_connected=0x7f040006;
-        public static final int title_other_devices=0x7f04000c;
-        public static final int title_paired_devices=0x7f04000b;
+        public static final int title_connected_to=0x7f040006;
+        public static final int title_connecting=0x7f040005;
+        public static final int title_not_connected=0x7f040007;
+        public static final int title_other_devices=0x7f04000d;
+        public static final int title_paired_devices=0x7f04000c;
     }
 }
