@@ -1,11 +1,27 @@
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\gen\com\example\android\BluetoothChat\R.java \
  : C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\drawable\app_icon.png \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\drawable\back01.png \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\drawable\back02.png \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\drawable\doc.png \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\drawable\folder.png \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\drawable\icon.png \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\drawable\listview_selected.xml \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\drawable-hdpi\app_icon.png \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\layout\custom_title.xml \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\layout\device_list.xml \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\layout\device_name.xml \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\layout\fileselect.xml \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\layout\file_row.xml \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\layout\main.xml \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\layout\message.xml \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\menu\option_menu.xml \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\values\color.xml \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\res\values\strings.xml \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\res\drawable\app_icon.png \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\res\drawable\back01.png \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\res\drawable\back02.png \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\res\drawable\doc.png \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\res\drawable\folder.png \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\res\drawable\icon.png \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\res\drawable-hdpi\app_icon.png \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\AndroidManifest.xml \

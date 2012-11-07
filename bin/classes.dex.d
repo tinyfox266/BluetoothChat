@@ -3,6 +3,7 @@ C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothc
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChat$2.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChat$3.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChat$4.class \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChat$5.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChat.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChatService$AcceptThread.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\BluetoothChatService$ConnectedThread.class \
@@ -13,6 +14,12 @@ C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothc
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\DeviceListActivity$2.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\DeviceListActivity$3.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\DeviceListActivity.class \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\MyAdapter$1.class \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\MyAdapter$ViewHolder.class \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\MyAdapter.class \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\MyFileManager$1.class \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\MyFileManager$2.class \
+C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\MyFileManager.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\R$attr.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\R$drawable.class \
 C:\Documents and Settings\Administrator\My Documents\NetBeansProjects\bluetoothchat\bin\classes\com\example\android\BluetoothChat\R$id.class \

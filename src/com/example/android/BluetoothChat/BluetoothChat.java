@@ -39,6 +39,9 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import java.io.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * This is the main Activity that displays the current chat session.
@@ -63,12 +66,14 @@ public class BluetoothChat extends Activity {
     private static final int REQUEST_CONNECT_DEVICE_SECURE = 1;
     private static final int REQUEST_CONNECT_DEVICE_INSECURE = 2;
     private static final int REQUEST_ENABLE_BT = 3;
+    public static final int REQUEST_OPEN_FILE = 4;
 
     // Layout Views
     private ListView mConversationView;
     private EditText mOutEditText;
     private Button mSendButton;
     private Button mCleanButton;
+    private Button mChooseButton;
 
     // Name of the connected device
     private String mConnectedDeviceName = null;
@@ -175,6 +180,15 @@ public class BluetoothChat extends Activity {
                 mConversationArrayAdapter.clear();
             }
         });
+        
+        mChooseButton = (Button) findViewById(R.id.button_choose);
+        
+        mChooseButton.setOnClickListener(new OnClickListener () {
+            public void onClick(View v) {
+                Intent intent = new Intent(BluetoothChat.this, MyFileManager.class);
+                startActivityForResult(intent, REQUEST_OPEN_FILE);
+            }
+        });
 
         // Initialize the BluetoothChatService to perform bluetooth connections
         mChatService = new BluetoothChatService(this, mHandler);
@@ -252,7 +266,34 @@ public class BluetoothChat extends Activity {
             mOutStringBuffer.setLength(0);
             mOutEditText.setText(mOutStringBuffer);
         }
-    }    
+    }  
+    
+    private void sendFile(String file) {
+        FileReader reader;
+        try {
+            reader = new FileReader(file);
+            BufferedReader br = new BufferedReader(reader);
+            String s = null;
+            try {
+                while ((s = br.readLine()) != null) {
+                    String [] msgs = s.split(";");
+                    for (int i=0; i < msgs.length; i++) {
+                        sendBytes(stringToHex(msgs[i]));    
+                    }
+                }
+            } catch (IOException ex) {
+                Logger.getLogger(BluetoothChat.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(BluetoothChat.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+            
+
+    
+    }
+    
+    
 
     // The action listener for the EditText widget, to listen for the return key
     private TextView.OnEditorActionListener mWriteListener =
@@ -353,6 +394,15 @@ public class BluetoothChat extends Activity {
                 Log.d(TAG, "BT not enabled");
                 Toast.makeText(this, R.string.bt_not_enabled_leaving, Toast.LENGTH_SHORT).show();
                 finish();
+            }
+        case REQUEST_OPEN_FILE:
+             // When the request to open file
+            if (resultCode == Activity.RESULT_OK) {
+                Bundle bundle = null;
+                if (data != null && (bundle=data.getExtras())!=null) {
+                    sendFile(bundle.getString("file"));
+                    //mOutEditText.setText(bundle.getString("file"));
+                }
             }
         }
     }
