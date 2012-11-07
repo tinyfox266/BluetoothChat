@@ -272,6 +272,7 @@ public class BluetoothChat extends Activity {
         FileReader reader;
         try {
             reader = new FileReader(file);
+
             BufferedReader br = new BufferedReader(reader);
             String s = null;
             try {
@@ -281,12 +282,15 @@ public class BluetoothChat extends Activity {
                         sendBytes(stringToHex(msgs[i]));    
                     }
                 }
+                br.close();
+                reader.close();
             } catch (IOException ex) {
                 Logger.getLogger(BluetoothChat.class.getName()).log(Level.SEVERE, null, ex);
             }
         } catch (FileNotFoundException ex) {
             Logger.getLogger(BluetoothChat.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
 
             
 
